@@ -1138,7 +1138,7 @@ margin: 0 0 65px 0;
     background-position: -49px 0px;
 }
 
-.footer_inst {
+.footer_inst
     height: 40px;
     width: 40px;
     background: url(../img/icon_sprite.svg);
@@ -1157,4 +1157,3 @@ margin: 0 0 65px 0;
     background: #FFE900;
     margin: 8px 0;
 }
-
