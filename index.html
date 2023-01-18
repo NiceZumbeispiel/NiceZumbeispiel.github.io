@@ -3,6 +3,7 @@
     <head>
         <title>Fork</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./style/style.css" rel="stylesheet" type="text/css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +21,9 @@
                      <img class="logo-img" alt="" src="./img/logo.svg"/>
                   </a>
                   <div class="header_menu">
-                     <ul class="menu-group">
+                     <ul id="menu" class="menu-group">
                          <li>
-                           <a href="#portfolio"class="menu-item portfolio">портфолио</a>
+                           <a href="#portfolio" class="menu-item portfolio">портфолио</a>
                          </li>
                          <li>
                            <a href="#stages" class="menu-item stage">этапы работы</a>
@@ -42,8 +43,12 @@
                            <!--<img class="icon_inst" src="./img/inst.svg">-->
                         </a>
                     </div>
+                    <div class="menu-icon">
+                     <a href="#menu" class="icon_menu"><span></span></a>
+                  </div>
+                  </div>
                </div>
-                    
+                   
             </header>
             <main class="main">
                 <!--1 стр обложка -->
@@ -58,7 +63,7 @@
                               </h1>
                               <div class="block-text_text">Сделаем продающий сайт для твоего бизнеса</div>
                               <div class="block-text-button">
-                                 <a href="#contact" class="get_button">ОБСУДИТЬ ПРОЕКТ</a>
+                                 <a href="indexFS.html#contact" class="get_button">ОБСУДИТЬ ПРОЕКТ</a>
                               </div>
                           </div>
                        </div>
@@ -72,7 +77,7 @@
                 <!--2 стр-->
                 <section class="section_description">
                    <div class="discription-lamp_container">
-                      <a name="about_us"></a>
+                      <a id="about_us"></a>
                        <div class="discription-lamp_content">
                           <h2 class="lamp-text">
                              ДЕЛАЕМ БОЛЬШЕ,
@@ -80,7 +85,7 @@
                           </h2>
                          <div class="lamp-img">
                             <a class="lamp">
-                               <img src="./img/lamp.svg"/>
+                               <img alt="" src="./img/lamp.svg"/>
                             </a>
                          </div>
                        </div>
@@ -120,8 +125,8 @@
                 <!--3 стр stage (этапы работы)-->
                 <section class="section_stages">
                    <div class="stages_container">
-                        <a name="stages"></a>
-                        <div class="stages_yellow" name="stage">
+                        <a id="stages"></a>
+                        <div class="stages_yellow">
                           ЭТАПЫ РАБОТЫ
                         </div>
 
@@ -204,15 +209,15 @@
                             </div>
                          </div>
                        </div>
-                       <div href="" class="stage-button">
-                        <a  class="stg_button" href="#contact">ЗАКАЗАТЬ САЙТ</a>
+                       <div class="stage-button">
+                        <a  class="stg_button" href="indexFS.html#contact">ЗАКАЗАТЬ САЙТ</a>
                       </div>
                    </div>
                 </section>
                 <!--4 стр portfolio-->
                 <section class="section_portfolio">
                   <div class="portfolio_container">
-                     <a name="portfolio"></a>
+                     <a id="portfolio"></a>
                      <div class="portfolio_yellow">
                            ПОРТФОЛИО
                      </div>
@@ -246,7 +251,7 @@
                 <!--5 стр price-->
                 <section class="section_price">
                   <div class="price_container">
-                     <a name="price"></a>
+                     <a id="price"></a>
                      <div class="price_yellow">
                         СТОИМОСТЬ
                      </div>
@@ -254,10 +259,10 @@
                         <div class="price-landing">
                            <div class="square-img">
                               <a class="square_big">
-                                 <img alt="" src="./img/price/square big.svg"/>
+                                 <img alt="" src="./img/price/square_big.svg"/>
                               </a>
                               <a class="price-img">
-                                 <img src="./img/price/price.svg"/>
+                                 <img alt="" src="./img/price/price.svg"/>
                               </a>
                            </div>
                            <div class="landing-text_content">
@@ -279,17 +284,17 @@
                                <div class="l_price">от 200$</div>
                              </div>
                           </div>
-                          <div href="" class="landing-button">
-                            <a href="#contact" class="stg_button">ЗАКАЗАТЬ САЙТ</a>
+                          <div class="landing-button">
+                            <a href="indexFS.html#contact" class="stg_button">ЗАКАЗАТЬ САЙТ</a>
                           </div>
                         </div>
                         <div class="price-web">
                            <div class="square-img_s">
                               <a class="price-img_web">
-                                 <img src="./img/price/price.svg"/>
+                                 <img alt="" src="./img/price/price.svg"/>
                               </a>
                               <a class="square_small">
-                                 <img alt="" src="./img/price/square small.svg"/>
+                                 <img alt="" src="./img/price/square_small.svg"/>
                               </a>
                            </div>
                            <div class="web-text_content">
@@ -306,7 +311,7 @@
                                 <div class="web_price">от 20$</div>
                               </div>
                            </div>
-                           <div href="" class="web-design-button">
+                           <div class="web-design-button">
                               <a href="#contact" class="stg_button">ЗАКАЗАТЬ ДИЗАЙН</a>
                            </div>
                            <div class="ps">
@@ -323,7 +328,7 @@
                 <!--6 стр team-->
                 <section class="section_team">
                   <div class="team_container">
-                     <a name="team"></a>
+                     <a id="team"></a>
                      <div class="team_yellow">
                         КОМАНДА
                       </div>
@@ -367,7 +372,7 @@
                 <section class="section_contacts" >
                   <div class="contacts_container">
                      <div class="contacts_yellow">
-                        <a name="contact">
+                        <a id="contact">
                            КОНТАКТЫ
                         </a>
                      </div>
@@ -431,15 +436,15 @@
                               Связаться с нами на прямую
                            </div>
                            <div class="figure_social">
-                              <a href="#" class="contacts_tg">
+                              <a href="https://t.me/VioletShip" class="contacts_tg">
                                  <!--<img class="icon_tg" src="./img/tg.svg">-->
                               </a>
-                              <a href="#" class="contacts_inst">
+                              <a href="https://instagram.com/fork.spark?igshid=ZDdkNTZiNTM=" class="contacts_inst">
                                  <!--<img class="icon_inst" src="./img/inst.svg">-->
                               </a>
                           </div>
                            <div class="form_girl">
-                               <img src="./img/form_girl.svg" />
+                               <img alt="" src="./img/form_girl.svg" />
                            </div>
                         </div>
                      </div>   
